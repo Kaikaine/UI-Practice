@@ -45,7 +45,46 @@
     }
 }
 
+/* MAIN CONTENT */
 
+.top-content .row {
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.top-content .row .pic-1 {
+    background: url('img/home/home-mobile-img-1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20rem;
+    width: 100%;
+}
+
+.top-content .row .pic-2 {
+    background: url('img/home/home-mobile-img-2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 20rem;
+    width: 100%;
+}
+
+.top-content .row .text,
+.top-content .row p {
+    margin-top: 1rem;
+}
+
+
+.top-content button {
+    background: white;
+    border: 1px solid black;
+    width: 100%;
+    padding: 3%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 
 /* FOOTER */
