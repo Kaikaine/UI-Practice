@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-top {
+    background: url('img/home/home-mobile-jumbotron.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-top ul {
+    padding-top: 5.2rem;
+    list-style-type: none;
+    color: white;
+}
+
+
+
+
