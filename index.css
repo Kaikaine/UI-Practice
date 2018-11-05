@@ -45,7 +45,7 @@
     }
 }
 
-/* MAIN CONTENT */
+/* TOP CONTENT */
 
 .top-content .row {
     margin-bottom: 3rem;
@@ -76,7 +76,6 @@
     margin-top: 1rem;
 }
 
-
 .top-content button {
     background: white;
     border: 1px solid black;
@@ -84,6 +83,34 @@
     padding: 3%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+/* TOP CONTENT MEDIA QUERY */
+@media (min-width: 721px) {
+    .top-content .row-1 {
+        flex-direction: row-reverse;
+    }
+
+    .top-content .row .pic-1,
+    .top-content .row .pic-2,
+    .top-content .row .text {
+        width: 45%;
+    }
+
+    .pic-1 {
+        margin-left: 10%;
+    }
+
+    .pic-2 {
+        margin-right: 10%;
+    }
+
+    .top-content h4 {
+        
+    }
+
+    .top-content .text {
+        width: 93%;
+    }
 }
 
 
