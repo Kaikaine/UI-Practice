@@ -19,8 +19,37 @@
 footer {
     background: #828282;
     color: white;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding: 2rem;
+}
+
+@media(min-width: 720px) {
+    .split{
+        display: inline-block;
+    }
+
+    .email {
+        margin-right: 4%;
+        margin-left: 2%;
+        width: 30%;
+    }
+
+    .ny {
+        margin-right: 4%;
+        width: 18%;
+    }
+
+    .fl {
+        margin-right: 4%;
+        width: 18%;
+    }
+
+    .ca {
+        width: 18%;
+    }
+
+    .copy {
+        text-align: center;
+    }
 }
 
 .form-text {
