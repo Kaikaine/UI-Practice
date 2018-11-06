@@ -47,14 +47,42 @@
 }
 
 /* MAIN CONTENT */
+.forms {
+    flex-basis: initial;
+}
+
+h3 {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
 #small {
     color: #6c757d;
 }
+
+textarea {
+    margin-bottom: 1rem;
+}
+
 .btn-secondary {
+    margin-top: 1rem;
     color: black;
     background-color: white;
     border-color: #6c757d;
 }
+
+h4 {
+    margin-top: 1rem;
+}
+
+.col p {
+    margin-bottom: 0;
+}
+
+.col .ca {
+    margin-bottom: 2rem;
+}
+
 /* FOOTER */
 footer {
     background: #828282;
