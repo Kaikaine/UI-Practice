@@ -237,7 +237,7 @@ footer {
     color: white !important;
 }
 /* FOOTER MEDIA QUERY */
-@media(min-width: 721px) {
+@media(min-width: 887px) {
     .split{
         display: inline-block;
     }

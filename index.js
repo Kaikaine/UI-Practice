@@ -14,7 +14,15 @@ class Tabs {
             }
             this.element.classList.add('tabbed');
 
-            
+            let img = document.querySelectorAll('.service-img');
+            img = Array.from(img);
+            console.log(img);
+            for (let x = 0; x<img.length; x++) {
+                img[x].classList.add('vision');
+                if (img[x].dataset.tab == this.element.dataset.tab) {
+                    img[x].classList.remove('vision');
+                }
+            }
            });
     }
 }
