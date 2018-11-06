@@ -83,11 +83,40 @@ h4 {
     margin-bottom: 2rem;
 }
 
+/* MAIN CONTENT MEDIA QUERY */
+@media (min-width: 768px) {
+    .forms {
+        flex-basis: 0;
+        margin-right: 8rem;
+    }
+
+    .btn-block {
+        width: 7rem;
+    }
+
+    .col .city {
+        display: initial;
+        width: 31%;
+    }
+
+}
+
+@media (min-width: 887px) {
+    .work {
+        margin-bottom: 0;
+    }
+
+    .col h4 {
+        margin-top: 0;
+    }
+}
+
 /* FOOTER */
 footer {
     background: #828282;
     color: white;
     padding: 2rem;
+    margin-top: 3rem;
 }
 
 .form-text {
