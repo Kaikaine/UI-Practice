@@ -74,6 +74,7 @@
     background: #5e9fb9;
     border: 1px solid #5e9fb9;
 }
+/* TABS MEDIA QUERY */
 @media (min-width: 768px) {
     .tabs .tab {
         display: inline-block;
@@ -85,6 +86,89 @@
     }
 }
 
+/* CONTENT */
+.current {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text {
+    flex-basis: initial;
+}
+
+.pic {
+    flex-basis: initial;
+    background: grey;
+    height: 20rem;
+    margin-bottom: 3rem;
+}
+
+/* SERVICE TAB PICS */
+.pic-0 {
+    background: url('img/services/services-tab-mobile-pre-construction-img.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.pic-1 {
+    background: url('img/services/services-tab-mobile-construction-img.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.pic-2 {
+    background: url('img/services/services-tab-mobile-design-build-img.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.pic-3 {
+    background: url('img/services/services-tab-mobile-sustainability-img.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* SERVICE TAB MEDIA QUERY */
+@media (min-width: 768px) {
+    .text,
+    .pic {
+        /* flex-basis: 0; */
+        max-width: 50%;
+    }
+
+    .pic-0 {
+        background: url('img/services/services-tab-pre-construction-img.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    .pic-1 {
+        background: url('img/services/services-tab-construction-img.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    .pic-2 {
+        background: url('img/services/services-tab-design-build-img.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    .pic-3 {
+        background: url('img/services/services-tab-sustainability-img.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+/* FOOTER */
 footer {
     background: #828282;
     color: white;
