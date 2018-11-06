@@ -7,6 +7,7 @@
 .navbar {
     position: sticky;
     top: 0.001px;
+    z-index: 500;
 }
 
 
@@ -45,6 +46,44 @@
     }
 }
 
+/* MAIN CONTENT */
+/* TABS */
+.top-text {
+    width: 90%;
+    padding-left: 5%;
+}
+
+.tabs {
+    width: 90%;
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+}
+
+.tabs .tab {
+    width: 100%;
+    padding: 3%;
+    border: 1px solid black;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+
+.tabs .tabbed {
+    color: white;
+    background: #5e9fb9;
+    border: 1px solid #5e9fb9;
+}
+@media (min-width: 768px) {
+    .tabs .tab {
+        display: inline-block;
+        text-align: center;
+        margin-right: 1%;
+        padding: 1rem;
+        max-width: 23%;
+        font-size: .9rem;
+    }
+}
 
 footer {
     background: #828282;
